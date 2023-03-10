@@ -4,8 +4,8 @@
 #include <WiFi.h> // Biblioteca do WiFi. 
 
 // -------- Configurações de Wi-fi----------- 
-const char* ssid = "***";          //KJB
-const char* password = "*****";      //keke1000
+const char* ssid = "***";         
+const char* password = "*****";      
 // -------- Configurações de relógio on-line----------- 
 WiFiUDP udp;
 NTPClient ntp(udp, "a.st1.ntp.br", -3 * 3600, 60000); // Cria um objeto "NTP" com as configurações. 
